@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.logo {
+    color: #4b57f2;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #141534;
+    width: 350px;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 4px 25px #00000015;
+    border: 1px solid #141534;
+}
+
+label {
+    font-size: 13px;
+    color: #505050;
+}
+
+input, select {
+    width: 100%;
+    background: #0e0f25;
+    border: 1px solid #1f2151;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    border-radius: 6px;
+    color: #b2b8de;
+    font-size: 15px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #4b57f2;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #4B57F2;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.2s;
+    color: white;
+}
+
+button:hover {
+    background: #3B45D0;
+}
+
+.resultado-box {
+    background: #1f2151;
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    margin-top: 25px;
+    padding: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    border-top: 1px solid #ffffff;
+}
+
+.taxa {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.resultado {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2 class="logo">↯ CONVERT</h2>
+
+    <div class="card">
+
+        <div class="form">
+            <label>VALOR</label>
+            <input id="valor" type="text" placeholder="100,00">
+
+            <label>MOEDA</label>
+            <select id="moeda">
+                <option value="USD-BRL">Dólar americano</option>
+                <option value="EUR-BRL">Euro</option>
+                <option value="ARS-BRL">Peso argentino</option>
+            </select>
+
+            <button id="btn">Converter em reais</button>
+        </div>
+
+        <div class="resultado-box">
+            <p class="taxa">US$ 1 = R$ 4,86</p>
+            <h1 class="resultado">0,00 Reais</h1>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
